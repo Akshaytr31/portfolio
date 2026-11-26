@@ -601,6 +601,23 @@
   margin: 0;
 }
 
+.footer__back-to-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.footer__top-btn {
+  transition: transform 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.footer__top-btn:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 @media (max-width: 860px) {
   .about__grid,
   .about__extras,
